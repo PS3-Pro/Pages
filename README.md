@@ -20,7 +20,7 @@ Web Pages for PS3™ 4K Pro.
   
 </br>
 
- ## Remote Controler
+ ## Remote Controller
 ![image](https://user-images.githubusercontent.com/74815634/148670143-e633789c-7f50-4ebe-b569-da2db6a51e0f.png)
 
 </br>
