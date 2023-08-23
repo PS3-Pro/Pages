@@ -1,1 +1,1 @@
-Chat.swf hás connection issues when try to send a message, chat2.swf no, chat666.swf is what chat.swf loads
+Chat.swf hás connection issues when try to send a message, chat2.swf no, chat666.swf is what chat.swf loads, chat2 loads chat666d.swf that is debug and works because it isn't redirected to the html5 s the chat.swf
