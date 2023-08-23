@@ -1,0 +1,1 @@
+Chat.swf hás connection issues when try to send a message, chat2.swf no, chat666.swf is what chat.swf loads
