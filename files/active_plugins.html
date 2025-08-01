@@ -1,39 +1,58 @@
 <!-- Coded for PS3™ 4K Pro by Luan Teles -->
-<html lang="en">
+
+<html lang="en" >
    <head>
       <title>PlayStation® Plugins</title>
-      <style>
-         body {
-            background-color: black;
-            color: white;
-            font-family: monospace;
-            font-size: 22px;
-            margin: 5%;
-         }
-
-         .iframe-box {
-            width: 100%;
-            height: 400px;
-            border: 2px solid white;
-         }
-
-         h1 {
-            text-align: center;
-            font-size: 26px;
-            margin-bottom: 20px;
-         }
-      </style>
    </head>
+   <script>
+      javascript:window.resizeTo(screen.width,screen.height)
+   </script>
+   <style>
+      body { background-image:url("http://raw.githubusercontent.com/PS3-4K-Pro/Pages/main/resources/media/active_plugins.png");
+      background-size: 100% auto;
+      background-attachment: scroll; 
+      margin-top: 3%; 
+      margin-left: 8%; 
+      margin-right: 8%; 
+      marginbottom: 8%;
+      body {background-color:#000000;}
+      body {color:white;}
+      }
+      .center {
+      margin: 0;
+      position: absolute;
+      top: 35%;
+      left: 27%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      }
+      .wrap {
+      width: 335px;
+      height: 180px;
+      overflow: hidden;
+      }
+      iframe {
+      -webkit-transform: scale(2);
+      transform: scale(2);
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+      }
+   </style>
    <body>
-      <h1>boot_plugins.txt</h1>
-
-      <iframe
-         class="iframe-box"
-         src="http://localhost/dev_hdd0/boot_plugins.txt"
-         width="100%"
-         height="100%"
-         frameborder="0"
-         scrolling="auto">
-      </iframe>
+      <div class="container">
+         <div class="center">
+            <iframe class="wrap" id="myFrame" width="600px" height="10px" src="http://localhost/dev_hdd0/boot_plugins.txt"></iframe>
+         </div>
+      </div>
    </body>
+   <script>
+      var frame = document.getElementById('myFrame');
+          frame.onload = function () {
+              var body = frame.contentWindow.document.querySelector('body');
+              body.style.color = 'black';
+      		body.style.fontWeight = 'bold'
+            <!--  body.style.fontSize = '20px'; -->
+            <!-- body.style.lineHeight = '20px'; -->
+          };
+   </script>
 </html>
