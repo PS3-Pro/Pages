@@ -1,7 +1,7 @@
 <div align="center">
   
 # Pages
-Web Pages for PS3™ 4K Pro.
+Web Pages for PS3™ Pro.
 
 </br>
 
