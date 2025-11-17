@@ -1,3 +1,12 @@
 
 Chat: http://www.xatech.com/web_gear/chat/chat.swf
 Players http://www.webestools.com/mp3-player-flash-swf-generator-flash-mp3-player-fla-script-play-music-mp3-site.html
+
+&autostart=yes
+&autostart=no
+
+flashObject("https://flash.webestools.com/mp3_player/s_1.swf", "player_2607", "600", "35", "8", false, flashvars_2607, params_2607, attributes_2607);
+
+600 = X size
+25 = Y size
+8 = 80% volume
